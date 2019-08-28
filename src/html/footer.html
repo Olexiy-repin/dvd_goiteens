@@ -1,0 +1,66 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content-container">
+            <div class="footer__content-wrapper">
+                <div class="logo-container footer_logo-container">
+                    <svg class="logo footer_logo">
+                        <use href="./images/header/logo.svg#logo"></use>
+                    </svg>
+                </div>
+                <p class="footer__date">31 августа 2019</p>
+                <p class="footer__time">11:30</p>
+                <a href="#" class="footer__location">
+                    Киев, м. Печерская,
+                    бул. Леси Украинки, 26
+                    4й этаж
+                </a>
+                <a href="#myModal" class="modal-btn modal-btn_footer popup-with-form"><span>участвуем</span> в
+                    мастер-классе</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="myModal" class="white-popup mfp-hide">
+    <div class="modal-content">
+        <div class="form-container">
+            <form class="modal-form modalDialog-form" method="post">
+                <h2 class="modal-form__title">Оставьте заявку на участие в бесплатной презентации</h2>
+                <div class="form-modal__input-container">
+                    <div class="modalDialog-form-row">
+                        <label class="form-modal__label modalDialog-form-row-name">
+                            Имя:
+                            <input type="text" name="name" required="">
+                        </label>
+                    </div>
+                    <div class="modalDialog-form-row">
+                        <label class="form-modal__label modalDialog-form-row-tel">
+                            Телефон:
+                            <input type="tel" name="phone">
+                        </label>
+                    </div>
+                    <div class="modalDialog-form-row">
+                        <label class="form-modal__label modalDialog-form-row-email">
+                            E-mail:
+                            <input type="email" name="email" required="">
+                        </label>
+                    </div>
+                    <div class="modalDialog-form-check">
+                        <input type="checkbox" class="checkbox" id="checkbox" checked="">
+                        <label for="checkbox">Принимаю договор оферты и <br> даю согласие на обработку моих <br>
+                            персональных данных</label>
+                    </div>
+                </div>
+                <input type="hidden" name="utm_source" value="">
+                <input type="hidden" name="utm_medium" value="">
+                <input type="hidden" name="utm_term" value="">
+                <input type="hidden" name="utm_campaign" value="">
+                <input type="hidden" name="utm_content" value="">
+
+                <div class="submit-wrap">
+                    <button class="modal-form__btn link_begin submit" type="submit">оставить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+</div>

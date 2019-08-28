@@ -1,0 +1,123 @@
+.footer {
+  background-image: url("../images/footer/bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 890px;
+  padding-top: 31.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.footer_logo-container {
+  margin-bottom: 1.8rem;
+}
+
+.footer_logo {
+  width: 12.7rem;
+  height: 4.15rem;
+}
+
+.footer__date {
+  font-family: "GothamB";
+  font-size: 1.875rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.1rem;
+}
+
+.footer__time {
+  font-family: "GothamB";
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: .4rem;
+}
+
+.footer__location {
+  display: block;
+  font-family: "GothamB";
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 2.125rem;
+  width: 14.4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.modal-btn_footer {
+  background-color: #f5d53b;
+  color: #000;
+  position: relative;
+  transition: all .3s linear;
+
+  &:hover {
+    background-color: #fff;
+    color: #de4c63;
+  }
+}
+
+@media (min-width: 320px) {
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .footer {
+      background-image: url("../images/footer/bg@2x.jpg");
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    background-image: url("../images/footer/bg_tablet.jpg");
+    background-size: cover;
+    padding-top: 6.3rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .footer__content-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__content-wrapper {
+    width: 21.375rem;
+  }
+
+  .footer_logo-container {
+    justify-content: center;
+    margin-bottom: 1.9rem;
+  }
+
+  .footer_logo {
+    width: 12.7rem;
+    height: 4.15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    background-image: url("../images/footer/bg_descktop.jpg");
+    background-size: cover;
+    padding-top: 8.7rem;
+    padding-bottom: 4.2rem;
+
+    .container {
+      width: 63.1875rem;
+    }
+  }
+
+  .footer__content-wrapper {
+    width: 15.375rem;
+  }
+
+  .footer_logo-container {
+    padding-left: 0;
+  }
+
+  .footer_logo {
+    width: 12.7rem;
+    height: 4.15rem;
+  }
+}
